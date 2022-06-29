@@ -41,11 +41,11 @@ elExpenseForm.addEventListener("submit", function (evt){
   const expenseValue = elExpenseInput.value;
   const amountValue = elAmountInput.value;
 
-  const amoutArry = {
-    id: allAmaount.length,
-    title: expenseValue,
-    number : amountValue
-  }
+  // const amoutArry = {
+  //   id: allAmaount.length,
+  //   title: expenseValue,
+  //   number : amountValue
+  // }
 
   allAmaount.push (amountValue*1)
 
